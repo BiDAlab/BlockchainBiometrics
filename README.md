@@ -1,5 +1,5 @@
-# Blockchain meets Biometrics
-## Concepts, Application to Template Protection, and Trends
+# Blockchain meets Biometrics: Concepts, Application to Template Protection, and Trends
+
 ```diff 
 + This repository contains the source code for the smart contracts deployed on the Ethereum blockchain platform.
 ```
@@ -21,6 +21,8 @@ At first glance it may seem a small value, but in a real biometric system, the m
 Every operation implemented in a blockchain must be optimized as much as possible. In this case we use an algorithm whose running time depends on the number of ones present in the binary form of the given number, instead of just traversing and counting the number of ones, obtaining a much better performance.
 
 In contrast to the Euclidean distance, this distance calculation is simpler, and only uses bitwise operations. In addition, it does not store data into the blockchain and, as a result, as a read-only operation has no execution costs. This is especially important in a biometric scenario, where a large number of users can be involved in matching operations. 
+
+## REFERENCES
 
 [BLOCKCHAIN_2019] O. Delgado-Mohatar, J. Fierrez, R. Tolosana and R. Vera-Rodriguez, "Blockchain and Biometrics: A First Look into Opportunities and Challenges", in Proc. International Congress on Blockchain and Applications, 2019.
 
